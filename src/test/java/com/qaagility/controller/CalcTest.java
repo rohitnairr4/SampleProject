@@ -28,4 +28,10 @@ public class CalcTest {
       }
 	
 	
+	@Test	
+      public void testCalc2() {
+        Calcmul testcalmul = new Calcmul();
+	Calculator testcaladd = new Calculator();
+      }
+	
     }
