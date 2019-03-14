@@ -32,10 +32,12 @@ public class CalcTest {
 	@Test	
       public void testCalc2() {
         Calcmul testcalmul = new Calcmul();
+	Calcmul testcaladd1 = new Calcmul();
 	Calculator testcaladd = new Calculator();
 	      
 	      assertEquals(testcalmul.mul(),18);
 	      assertEquals(testcaladd.add(),9);
+	      assertEquals(testcaladd1.add(),10);
       }
 	
     }
