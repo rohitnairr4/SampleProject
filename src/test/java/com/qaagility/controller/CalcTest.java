@@ -32,6 +32,9 @@ public class CalcTest {
       public void testCalc2() {
         Calcmul testcalmul = new Calcmul();
 	Calculator testcaladd = new Calculator();
+	      
+	      assertEquals(testcalmul.mul(),10);
+	      assertEquals(testcaladd.add(),20);
       }
 	
     }
