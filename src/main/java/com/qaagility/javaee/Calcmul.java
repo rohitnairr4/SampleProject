@@ -8,4 +8,10 @@ public class Calcmul {
   
   }
   
+  public int add() {
+    //Adding comments
+    return 4 + 6;
+  
+  }
+  
   }
